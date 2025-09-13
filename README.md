@@ -1,6 +1,10 @@
 # Mal-Track
 Malware removal tool writen in Python.
 
+This project writed only for learning purposes
+
+USE ONLY ON VIRTUAL MACHINE!
+
 ## Overview
 
 This program designed to find and remove malware from a Windows computer. It is intended for use in a virtual machine set up for malware testing. The program finds the malware, stops it from running, removes it from Windows startup, deletes the malware files, and shows the IP address of the attacker.
@@ -15,11 +19,18 @@ The program reads the contents of the malware file and searches for sequences si
 How the Program Works
 
 Program starts by finding running processes that match the malware name. Searches for the malware process filepath and reads the file contents to search for an IP address. After that the program stops the malware process, removes the entry from the Windows startup registry and removes any malware files from the system.
+
+
+
 ## Requirements
 
 psutil Library:
 
 ``pip install psutil``
+
+## SHOWCASE
+
+[check video showcase](https://youtu.be/rFd2SdXtMHs)
 
 ## Usage
 
